@@ -1,0 +1,10 @@
+parte_uno = "Star"
+parte_dos = "Wars"
+parte_tres = "El"
+parte_cuatro = "Despertar"
+parte_cinco = "De"
+parte_seis = "La"
+parte_siete = "Fuerza"
+pelicula = f"{parte_uno} {parte_dos}"
+pelicula_completa = f"{parte_tres[:]} {parte_cuatro[0]} {parte_cinco[1]} {parte_seis[:2]} {parte_siete[0:]}"
+print(pelicula, pelicula_completa)

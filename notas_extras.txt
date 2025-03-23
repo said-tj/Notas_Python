@@ -1,0 +1,26 @@
+Las variables escritas en python, no pueden comenzar con números, pero estas si pueden terminar su nombre con un número.
+
+Lo que hace una variable, es asignar un espacio dentro de la memoria física denl computador/servidor para después acceder al valor que le designamos a la variable.
+
+Los argumentos son los valores que le pasamos a la función.
+
+Un método es una función que se encuentra en un objeto.
+
+Podemos encadenar los métodos por ejemplo: print(animal.strip().capitalize())
+
+Las evaluaciones en el if, se hacen de arriba hacia abajo, por lo cual es muy importante el orden en como acomodamos las instrucciones.
+
+Se pueden agregar tanto elif como se desee pero no es una buena práctica.
+
+Los operadores lógicos se evaluan de izquierda a derecha, pero si se agregan parentesis entonces esas se evaluan primero.
+
+Las operaciones de corto circuito son el orden en como se ponen y evaluan los operadores logicos, para reducir el costo computacional, es decir, el orden en como estan las tablas de verdad.
+
+Un ciclo for nos sirve para iterar una lista de eventos, por ejemplo: crear un campo de datos, búscar elementos, realizar operaciones matemáticas, etc.
+
+El método range() es un iterable, al igual que las listas, tuplas, strings.
+
+Un for dentro de otro for, no es una práctica muy comun, sin embargo se puede utilizar por ejemplo para crear pares ordenados.
+
+Si tenemos un for dentro de otro for, es decir un outer for y un inner foor entonces siempre se debe de cumplir primero la condición del inner for, para que después pueda cumplir la condición de outer for. 
+
