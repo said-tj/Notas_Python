@@ -24,3 +24,27 @@ Un for dentro de otro for, no es una práctica muy comun, sin embargo se puede u
 
 Si tenemos un for dentro de otro for, es decir un outer for y un inner foor entonces siempre se debe de cumplir primero la condición del inner for, para que después pueda cumplir la condición de outer for. 
 
+Una función recibe aurgumentos y parámetros.
+
+La variable que le pasamos como argumento a una función solo se puede ocupar dentro del contexto de la función (tipo mini local).
+
+Cada vez que hacemos referencia a una variable dentro de una función decimos que estamos haciendo usos de sus parámetros.
+
+Por el contrario, cada vez que llamamos a la función que deja de ser una variable y empieza a tener un valor, nos referimos como arguemntos.
+
+En resumen, dentro de la función se llama parámetros y fuera de la función se llama argumentos.
+
+Podemos tener parámetros opcionales, es decir, cuando definimos la función y en ella el parámetro de asignamos un valor (parametro_n = xyz) este valor lo va a tomar por default, siempre que nosotros al llamar a la función no le pasemos dicho argumento tomara el que definimos.
+
+Para los argumentos nombrados, solo basta que al pasarle el arguemnto(s) a la función, lo igualemos al parámetro que deseamos que sea igual, sin importa el orden.
+
+Para los kwargs se utiliza el ** el cual demanda que al pasar un argumento, este debe de estar definido a que parámetro va a ser asignado.
+
+Return, permite manipular el resultado de una función para tomar la variable y poder devolverla cada vez que la necesitemos. 
+
+Una variable definida fuera de una función se dice que esta en el contexto global.
+
+Utilizar variables globales es una mala práctica.
+
+Hay que tener cuidado con return pues esta inmediatamente detiene la ejecución de la función y va a retornar el valor para ser asignado a una variable cuando se llame a esa línea.
+
