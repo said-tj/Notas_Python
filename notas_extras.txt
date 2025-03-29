@@ -48,3 +48,15 @@ Utilizar variables globales es una mala práctica.
 
 Hay que tener cuidado con return pues esta inmediatamente detiene la ejecución de la función y va a retornar el valor para ser asignado a una variable cuando se llame a esa línea.
 
+Los corchetes nos sirve para indicar donde comienza la lista, es decir guarda el contenido de la lista. Y entre cada elemento existe una coma que hace que separe elementos de la lista.
+
+Una lista dentro e otra lista es una matriz.
+
+Para crear una lista vacia solo basta con  a = []
+
+La función list(), recibe como argumento un iterable, si lo dejamos vacio, entonces crea una lista vacia.
+
+La función enumerate(), nos devuleve una tupla.
+
+El método count() nos indica cuantas veces existe un elemento.
+
