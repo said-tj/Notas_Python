@@ -58,5 +58,5 @@ La función list(), recibe como argumento un iterable, si lo dejamos vacio, ento
 
 La función enumerate(), nos devuleve una tupla.
 
-El método count() nos indica cuantas veces existe un elemento.
+El método count() nos indica cuantas veces existe un elemento dentro de un objeto.
 
