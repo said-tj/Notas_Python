@@ -60,3 +60,15 @@ La función enumerate(), nos devuleve una tupla.
 
 El método count() nos indica cuantas veces existe un elemento dentro de un objeto.
 
+El método .remove() elimina elementos de una lista, pero en el dado caso de que exista más de un elemento con el mismo nombre, entonces, solo eliminara el primero, por lo cual se debe de contabilizar el número de elementos repetidos.
+
+El método .pop(), en caso de no colocar nada en el argumento (posición a eliminar), entonces  elimina el último elemento de la lista.
+
+El método .sort(), ordena los elementos númericos de una lista/array en forma ascendente.
+
+La función sorted(), recibe como argumento un iterable, y esto devuelve una nueva lista, y no afectara el listado anterior.
+
+Si un listado contiene otro listado o también pueden ser duplas, siempre y cuando el primer elemento sea un ordenable, lo va a ordenar.
+
+Si solo vamos a ocupar una función lambda solo una unica vez y no utilizarla nunca más, entonces no hay ningún problema, es decir, no seria mala práctica.
+
