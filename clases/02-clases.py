@@ -10,3 +10,9 @@ class Perro:
 mi_perro = Perro()
 mi_perro.habla()
 print(isinstance(mi_perro, Perro))
+
+class Hola:
+    def saludo(self):
+        print("Hola Mundo")
+
+un_saludo = Hola()
