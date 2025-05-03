@@ -37,4 +37,3 @@ def Suma(a,b):
     print(f"La suma de {a} y {b} es: ", c)
 
 Suma(2,3)
-
