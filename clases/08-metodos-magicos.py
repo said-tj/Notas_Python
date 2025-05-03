@@ -14,6 +14,6 @@ class Perro:
         print(f"{self.nombre} dice: Guau!")
 
 
-# Todos los métodos mágicos siempre van a comenzar con __ y van a terminar con __
+# Todos los métodos mágicos siempre van a comenzar con __ y van a terminar con__.
 perro = Perro("Palomo", 10)
 del perro
