@@ -12,3 +12,4 @@ Obejto, es una instancia de una clase.
 
 # Clase: Humano
 # Objeto: Said
+# ygyb

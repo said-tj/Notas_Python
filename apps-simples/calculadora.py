@@ -31,7 +31,7 @@ elif operacion == "div":
     r_div = a_numero / b_numero
     print(r_div)
 
-
+# Existe un error en la definición de la función.
 def Suma(a,b):
     c = a + b
     print(f"La suma de {a} y {b} es: ", c)
